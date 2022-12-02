@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timer Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script defer src="index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="ring">
+        <svg width="518" height="518" viewBox="0 0 518 518">
+          <circle stroke-width="9px" x="0" y="y" cx="259" cy="259" r="254" />
+        </svg>
+      </div>
+
+      <div class="timer">
+        <div class="time">
+          <div class="minutes">
+            <input type="text" value="10" disabled />
+          </div>
+          <div class="colon">:</div>
+          <div class="seconds">
+            <input type="text" value="00" disabled />
+          </div>
+        </div>
+        <button class="start">start</button>
+        <button class="settings">
+          <img src="images/gear.svg" alt="Settings" />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
